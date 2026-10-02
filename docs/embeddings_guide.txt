@@ -1,0 +1,5 @@
+An embedding is a list of numbers representing the meaning of text, images, or other data. An embedding model maps similar items to nearby points in vector space.
+
+Embeddings power semantic search: represent document chunks and user queries as vectors, then compare them (often with cosine similarity) to find relevant text even when exact words differ.
+
+They are also used for recommendations, clustering, and finding related or duplicate content. Keep model and chunking choices consistent, since vectors from different models generally cannot be compared directly. Embeddings capture learned patterns, not guaranteed facts, so evaluate results for relevance.

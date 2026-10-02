@@ -1,0 +1,5 @@
+Swagger UI is a web interface for exploring and testing an API. It displays endpoints, parameters, request bodies, and possible responses interactively.
+
+It usually reads an OpenAPI document, a standard description of an API. Frameworks such as FastAPI can generate this document from routes and data models, keeping documentation aligned with code.
+
+Select an operation to inspect its details. When enabled, "Try it out" sends a request and displays the response. Requests may affect real data, so check the environment and authentication settings first. Swagger UI documents an API; it does not implement it.

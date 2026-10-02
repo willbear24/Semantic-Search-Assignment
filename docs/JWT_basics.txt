@@ -1,0 +1,5 @@
+A JSON Web Token (JWT) carries claims between systems, often to represent an authenticated user. Claims may include a user ID and expiration time.
+
+A JWT has three Base64URL-encoded parts: a header, payload, and signature. The signature lets servers verify the token and detect changes. The payload is not encrypted, so anyone holding the token can read it.
+
+After sign-in, a client sends the token with API requests, usually in an Authorization header as a Bearer token. The API validates it before granting access. Use HTTPS, validate the signature, issuer, audience, and expiration, and never put secrets in claims.
